@@ -1,1 +1,16 @@
-
+{
+    "prompts": [
+        {
+            "id": 1,
+            "text": "#Select"
+        },
+        {
+            "id": 2,
+            "text": "#ADAPT"
+        },
+        {
+            "id": 3,
+            "text": "IMPLEMENT"
+        }
+    ]
+}
