@@ -1,22 +1,19 @@
 # SELF-DISCOVER Implementation
 
-This repository contains an implementation of the SELF-DISCOVER framework as described in the paper "Self-Discover: Large Language Models Self-Compose Reasoning Structures" by Pei Zhou, Jay Pujara, Xiang Ren, Xinyun Chen, Heng-Tze Cheng, Quoc V. Le, Ed H. Chi, Denny Zhou, Swaroop Mishra, Huaixiu Steven Zheng. 
+This repository contains an implementation of the SELF-DISCOVER framework as described in the paper "Self-Discover: Large Language Models Self-Compose Reasoning Structures" by Pei Zhou, Jay Pujara, Xiang Ren, Xinyun Chen, Heng-Tze Cheng, Quoc V. Le, Ed H. Chi, Denny Zhou, Swaroop Mishra, Huaixiu Steven Zheng.
 SELF-DISCOVER enables Large Language Models (LLMs) to autonomously discover and compose reasoning structures to tackle complex reasoning tasks, significantly enhancing their performance on challenging benchmarks.
 
-## Features
-
-- **Self-Discovery Mechanism**: Implements the self-discovery process for identifying and composing atomic reasoning modules.
-- **Enhanced Reasoning Capability**: Demonstrates improved performance on reasoning benchmarks like BigBench-Hard, grounded agent reasoning, and MATH.
-- **Efficiency**: Offers substantial computational efficiency compared to Chain of Thought (CoT) and CoT-Self-Consistency methods.
-- **Cross-Model Applicability**: Validates the universal applicability of discovered reasoning structures across various model families including PaLM 2-L, GPT-4, and Llama2.
-
-
+## Usage
+set your together.ai API key as an enviroment variable `TOGETHERAI_API_KEY`
+Run the main pythons script `main.py`. Use -v to see the thinking process.
 
 ## Contributing
 
 I welcome contributions to improve this implementation! Please feel free to submit issues or pull requests with enhancements, bug fixes, or suggestions.
 
 ## Citation
+
+The idea is based on the paper "Self-Discover: Large Language Models Self-Compose Reasoning Structures" by Pei Zhou, Jay Pujara, Xiang Ren, Xinyun Chen, Heng-Tze Cheng, Quoc V. Le, Ed H. Chi, Denny Zhou, Swaroop Mishra, Huaixiu Steven Zheng.
 
 ```
 @article{zhou2024selfdiscover,
@@ -28,3 +25,5 @@ I welcome contributions to improve this implementation! Please feel free to subm
   url={https://arxiv.org/abs/2402.03620}
 }
 ```
+
+The implementation is based on <https://github.com/catid/self-discover>
