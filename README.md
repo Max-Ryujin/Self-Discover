@@ -4,7 +4,7 @@ This repository contains an implementation of the SELF-DISCOVER framework as des
 SELF-DISCOVER enables Large Language Models (LLMs) to autonomously discover and compose reasoning structures to tackle complex reasoning tasks, significantly enhancing their performance on challenging benchmarks.
 
 ## Usage
-set your together.ai API key as an enviroment variable `TOGETHERAI_API_KEY` or your groq API key as an enviroment variable `GROQ_API_KEY`.
+set your together.ai API key as an enviroment variable `TOGETHER_API_KEY` or your groq API key as an enviroment variable `GROQ_API_KEY`.
 Run the main pythons script `main.py`. Use -v to see the thinking process.
 
 ## Contributing
